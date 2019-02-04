@@ -23,25 +23,13 @@
 							<nav id="nav">
 								<ul>
 									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="generic.html">About Me</a></li>
-
+									<li><a onclick="document.getElementById('first').scrollIntoView()">About Me</a></li>
 									<li>
-										<a href="#" class="icon fa-angle-down">Portfolio</a>
-										<ul>
-											<!-- <li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li> -->
-											<!-- <li>
-												<a href="#">Submenu</a>
-												<ul>
-													<li><a href="#">Option One</a></li>
-													<li><a href="#">Option Two</a></li>
-													<li><a href="#">Option Three</a></li>
-													<li><a href="#">Option Four</a></li>
-												</ul>
-											</li> -->
-										</ul>
+										<a onclick="document.getElementById('projects').scrollIntoView()">Projects</a>
 									</li>
+									<li>
+											<a onclick="document.getElementById('contact').scrollIntoView()">Contact Me</a>
+										</li>
 									<!-- <li><a href="elements.html">Elements</a></li> -->
 								</ul>
 							</nav>
@@ -119,7 +107,7 @@
 						</div>
 					</section>
 
-					<section class="main accent2">
+					<section class="main accent2" id="projects">
 						<header>
 							<h2>Projects</h2>
 						</header>
@@ -141,7 +129,71 @@
 										<li><a href="#" class="button next">Live Site</a></li>
 									</ul>
 								</div>
-								<div class="image" data-position="center"><img src="images/branches_dash.png" alt="" /></div>
+																<!-- Container for the image gallery -->
+								<div class="container">
+
+									<!-- Full-width images with number text -->
+									<div class="mySlides">
+									<div class="numbertext">1 / 6</div>
+										<img src="images/branches_dash.png" alt="" style="width:100%">
+									</div>
+								
+									<div class="mySlides">
+									<div class="numbertext">2 / 6</div>
+										<img src="images/branches_step1.png" style="width:100%">
+									</div>
+								
+									<div class="mySlides">
+									<div class="numbertext">3 / 6</div>
+										<img src="images/branches_step2.png" style="width:100%">
+									</div>
+								
+									<div class="mySlides">
+									<div class="numbertext">4 / 6</div>
+										<img src="images/branches_step3.png" style="width:100%">
+									</div>
+								
+									<div class="mySlides">
+									<div class="numbertext">5 / 6</div>
+										<img src="images/branches_step41.png" style="width:100%">
+									</div>
+								
+									<div class="mySlides">
+									<div class="numbertext">6 / 6</div>
+										<img src="images/branches_step42.png" style="width:100%">
+									</div>
+								
+									<!-- Next and previous buttons -->
+									<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides(1)">&#10095;</a>
+								
+									<!-- Image text -->
+									<div class="caption-container">
+									<p id="caption"></p>
+									</div>
+								
+									<!-- Thumbnail images -->
+									<div class="row">
+									<div class="column">
+										<img class="demo cursor" src="images/branches_dash.png" style="width:100%" onclick="currentSlide(1)" alt="Dashboard">
+									</div>
+									<div class="column"> 
+										<img class="demo cursor" src="images/branches_step1.png" style="width:100%" onclick="currentSlide(2)" alt="Step 1">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="images/branches_step2.png" style="width:100%" onclick="currentSlide(3)" alt="Step 2">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="images/branches_step3.png" style="width:100%" onclick="currentSlide(4)" alt="Step 3">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="images/branches_step41.png" style="width:100%" onclick="currentSlide(5)" alt="Step 4 part 1">
+									</div> 
+									<div class="column">
+										<img class="demo cursor" src="images/branches_step42.png" style="width:100%" onclick="currentSlide(6)" alt="Step 4 part 2">
+									</div>
+									</div>
+								</div>
 							</article>
 							<article class="post">
 								<div class="content">
@@ -151,18 +203,72 @@
 										<span class="category">Individually Developed</span>
 									</header>
 									<p>
-											Description: Vehicle search site that allows users to build multiple car profiles based on select criteria. This search will render a list of vehicles. Each vehicle is linked to YouTube and will show a list of available reviews matching the make and model of the vehicle.</p>
+											Vehicle search site that allows users to build multiple car profiles based on select criteria. This search will render a list of vehicles. Each vehicle is linked to YouTube and will show a list of available reviews matching the make and model of the vehicle.</p>
 
-											<p>Technologies used: React.js, Node.js, SQL</p>
+											<p>Technologies used: React.js, Node.js, SQL
+											</p>
 									<ul class="actions">
 										<li><a href="https://github.com/estott10/dlow" class="button next">GitHub</a></li>
 										<li><a href="#" class="button next">Live Site</a></li>
 									</ul>
 								</div>
-								
-								<div class="image" data-position="center"><img src="images/DLow.png" alt="" /></div>
-								
+																
+													<!-- Container for the image gallery -->
+								<div class="container">
 
+									<!-- Full-width images with number text -->
+									<div class="mySlides2">
+									<div class="numbertext">1 / 5</div>
+										<img src="images/DLow.png" alt="" style="width:100%">
+									</div>
+									<div class="mySlides2">
+									<div class="numbertext">2 / 5</div>
+										<img src="images/dlow_Build.png" alt="" style="width:100%">
+									</div>
+								
+									<div class="mySlides2">
+									<div class="numbertext">3 / 5</div>
+										<img src="images/dlow_Profiles.png" style="width:100%">
+									</div>
+								
+									<div class="mySlides2">
+									<div class="numbertext">4 / 5</div>
+										<img src="images/dlow_VehicleList.png" style="width:100%">
+									</div>
+								
+									<div class="mySlides2">
+									<div class="numbertext">5 / 5</div>
+										<img src="images/dlow_Reviews.png" style="width:100%">
+									</div>
+			
+									<!-- Next and previous buttons -->
+									<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+									<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+								
+									<!-- Image text -->
+									<div class="caption-container">
+									<p id="caption"></p>
+									</div>
+								
+									<!-- Thumbnail images -->
+									<div class="row">
+									<div class="column">
+										<img class="demo cursor" src="images/DLow.png" style="width:100%" onclick="currentSlide(1)" alt="Login">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="images/dlow_Build.png" style="width:100%" onclick="currentSlide(2)" alt="Building Car Profile">
+									</div>
+									<div class="column"> 
+										<img class="demo cursor" src="images/dlow_Profiles.png" style="width:100%" onclick="currentSlide(3)" alt="List of Car Profiles">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="images/dlow_VehicleList.png" style="width:100%" onclick="currentSlide(4)" alt="Cars matching Search Criteria">
+									</div>
+									<div class="column">
+										<img class="demo cursor" src="images/dlow_Reviews.png" style="width:100%" onclick="currentSlide(5)" alt="YouTube Reviews for Selected Car">
+									</div>
+									</div>
+								</div>
 							</article>
 							<article class="post alt">
 								<div class="content">
@@ -184,7 +290,7 @@
 						</div>
 					</section>
 
-					<section class="main alt special">
+					<section class="main alt special" id="contact">
 						<header>
 							<h2>Get in touch</h2>
 							<div>
@@ -223,6 +329,66 @@
 					</footer>
 
 			</div>
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(y) {
+				showSlides(slideIndex += y);
+				}
+
+				function currentSlide(y) {
+				showSlides(slideIndex = y);
+				}
+
+				function showSlides(y) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (y > slides.length) {slideIndex = 1}
+				if (y < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+			</script>
+			<script>
+					var slideIndex = 1;
+					showSlides1(slideIndex);
+	
+					function plusSlides2(n) {
+					showSlides1(slideIndex += n);
+					}
+	
+					function currentSlide1(n) {
+					showSlides1(slideIndex = n);
+					}
+	
+					function showSlides1(n) {
+					var i;
+					var slides = document.getElementsByClassName("mySlides2");
+					var dots = document.getElementsByClassName("demo");
+					var captionText = document.getElementById("caption");
+					if (n > slides.length) {slideIndex = 1}
+					if (n < 1) {slideIndex = slides.length}
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+					}
+					for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+					}
+					slides[slideIndex-1].style.display = "block";
+					dots[slideIndex-1].className += " active";
+					captionText.innerHTML = dots[slideIndex-1].alt;
+					}
+				</script>
 
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
