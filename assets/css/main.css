@@ -4641,7 +4641,7 @@ input, select, textarea {
 	}
 	
 	/* Next & previous buttons */
-	.prev, .next {
+	.prev, .forward {
 	  cursor: pointer;
 	  position: absolute;
 	  top: 50%;
@@ -4656,14 +4656,14 @@ input, select, textarea {
 	  user-select: none;
 	}
 	
-	/* Position the "next button" to the right */
-	.next {
+	/* Position the "forward button" to the right */
+	.forward {
 	  right: 0;
 	  border-radius: 3px 0 0 3px;
 	}
 	
 	/* On hover, add a black background color with a little bit see-through */
-	.prev:hover, .next:hover {
+	.prev:hover, .forward:hover {
 	  background-color: rgba(0,0,0,0.8);
 	}
 	
@@ -4729,7 +4729,7 @@ input, select, textarea {
 	  }
 	  
 	  /* Hide the images by default */
-	  .mySlides .mySlides2{
+	  .mySlides .mySlides2 .mySlides3{
 		display: none;
 	  }
 	  
@@ -4738,9 +4738,9 @@ input, select, textarea {
 		cursor: pointer;
 	  }
 	  
-	  /* Next & previous buttons */
-	  .prev,
-	  .next {
+	  /* forward & previous buttons */
+	  .previous,
+	  .forward {
 		cursor: pointer;
 		position: absolute;
 		top: 40%;
@@ -4755,15 +4755,15 @@ input, select, textarea {
 		-webkit-user-select: none;
 	  }
 	  
-	  /* Position the "next button" to the right */
-	  .next {
+	  /* Position the "forward button" to the right */
+	  .forward {
 		right: 0;
 		border-radius: 3px 0 0 3px;
 	  }
 	  
 	  /* On hover, add a black background color with a little bit see-through */
-	  .prev:hover,
-	  .next:hover {
+	  .previous:hover,
+	  .forward:hover {
 		background-color: rgba(0, 0, 0, 0.8);
 	  }
 	  
