@@ -2895,6 +2895,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
+			color: rgb(2, 2, 88);
 			padding: 0 1.25rem 0 0;
 		}
 
@@ -2903,7 +2904,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.375rem;
+				font-size: 2rem;
 			}
 
 /* Faces */
