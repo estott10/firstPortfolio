@@ -4254,7 +4254,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("/Users/erikastott/Desktop/firstPortfolio/images/jarrad-horne-541354-unsplash.jpg");
+		background-image: url("../../images/PortfolioBanner.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
@@ -4266,7 +4266,7 @@ input, select, textarea {
 	}
 
 		#banner > .content {
-			background-color: #4a98e2;
+			background-color: #5e849b;
 			color: #ffffff;
 			-moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
