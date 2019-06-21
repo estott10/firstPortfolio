@@ -4254,7 +4254,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("/Users/erikastott/Desktop/firstPortfolio/PortfolioBanner.jpg");
+		background: url("/Users/erikastott/Desktop/firstPortfolio/images/PortfolioBanner.jpg");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
