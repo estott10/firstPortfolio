@@ -1,11 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:800|Source+Sans+Pro:300,300i,600,600i");
 
-/*
-Relativity by Pixelarity
-pixelarity.com | hello@pixelarity.com
-License: pixelarity.com/license
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -4254,7 +4249,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/PortfolioBanner.jpg");
+		background-image: url("../../images/jarrad-horne-541354-unsplash");
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center;
@@ -4266,7 +4261,7 @@ input, select, textarea {
 	}
 
 		#banner > .content {
-			background-color: #5e849b;
+			background-color: #4a98e2;
 			color: #ffffff;
 			-moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
