@@ -2159,7 +2159,7 @@ input, select, textarea {
 				content: '\f178';
 				float: right;
 				line-height: inherit;
-				margin: 0 -0.25rem 0 0.5rem;
+				margin: 0 -1rem 0 0.5rem;
 			}
 
 		input[type="submit"].icon:before,
@@ -4249,10 +4249,10 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/jarrad-horne-541354-unsplash");
+		background: url("../../images/PortfolioBanner.jpg");
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: 90%;
 		background-repeat: no-repeat;
 		min-height: 100vh;
 		padding: 8rem 0;
@@ -4637,10 +4637,10 @@ input, select, textarea {
 	}
 	
 	/* Next & previous buttons */
-	.prev, .forward {
+	.prev{
 	  cursor: pointer;
 	  position: absolute;
-	  top: 50%;
+	  top: 40%;
 	  width: auto;
 	  margin-top: -22px;
 	  padding: 16px;
@@ -4651,6 +4651,21 @@ input, select, textarea {
 	  border-radius: 0 3px 3px 0;
 	  user-select: none;
 	}
+
+	.forward {
+		cursor: pointer;
+		position: absolute;
+		top: 40%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+	  }
 	
 	/* Position the "forward button" to the right */
 	.forward {
