@@ -4249,12 +4249,12 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background: url("../../images/PortfolioBanner.jpg");
-		background-size: cover;
-		background-attachment: fixed;
-		background-position: 90%;
+		background: url("../../images/ProPic.JPG");
+		background-size: 50%;
+		background-attachment: relative;
+		background-position: 0% 0%;
 		background-repeat: no-repeat;
-		min-height: 100vh;
+		min-height: 90vh;
 		padding: 8rem 0;
 		overflow: hidden;
 		position: relative;
@@ -4267,13 +4267,13 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			-ms-transition: -ms-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-			padding: 2.75rem;
+			padding: 2rem;
 			width: 100%;
 			text-align: center;
 			position: relative;
 			z-index: 1;
-			margin-top: 2rem;
-			opacity: 1;
+			margin-top: 16rem;
+			opacity: .8;
 		}
 
 			#banner > .content input, #banner > .content select, #banner > .content textarea {
